@@ -5,7 +5,7 @@
         private static int _count = 0; // инициализация счетчика
         private static ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();
 
-        public static void Main()
+        public static void StartMyServer()
         {
             Parallel.For(0, 50, i =>
             {
